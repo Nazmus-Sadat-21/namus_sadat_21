@@ -215,11 +215,13 @@ section {
     flex-wrap: wrap;
     justify-content: center;
   } */
- .btns{
+ /* .btns{
   height: 40px;
   width: 120px;
   font-size: 11px;
- }
+  display: flex;
+  gap: 5px;
+ } */
   .desc {
     font-size: 13px;
     font-weight: bold;
@@ -229,6 +231,15 @@ section {
   }
   .hero {
     background: url("./img/IMG_20251227_001727.jpg") no-repeat center/cover;
+    
+  }
+  .hero-content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 7px;
+
   }
 
   .title {
