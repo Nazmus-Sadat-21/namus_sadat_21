@@ -215,13 +215,12 @@ section {
     flex-wrap: wrap;
     justify-content: center;
   } */
- /* .btns{
-  height: 40px;
-  width: 120px;
-  font-size: 11px;
+ .btns{
+  font-size: 15px;
   display: flex;
+  text-align: center;
   gap: 5px;
- } */
+ }
   .desc {
     font-size: 13px;
     font-weight: bold;
@@ -243,7 +242,7 @@ section {
   }
 
   .title {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 
@@ -287,7 +286,7 @@ section {
     padding: 10px 20px;
   }
   .logo {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .navbar {
